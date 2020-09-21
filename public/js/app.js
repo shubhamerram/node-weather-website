@@ -10,7 +10,7 @@ weatherForm.addEventListener('submit', (e) => {
     message1.textContent ="loading...";
     message2.textContent = "";
     weatherIcon.removeAttribute('src')
-    fetch('http://localhost:3001/weather?address='+weatherLocation.value).then((response) => {
+    fetch('/weather?address='+weatherLocation.value).then((response) => {
         response.json().then( (data) => {
             if(data.error) {
                 message1.textContent = "";
