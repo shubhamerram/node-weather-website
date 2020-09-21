@@ -6,7 +6,7 @@ const geocode = require('./utils/geocode');
 const forecast = require('./utils/forecast');
 const { response } = require('express');
 
-// Config
+// Config list
 const viewDir = path.join(__dirname, '../templates/views'); 
 const publicDir = path.join(__dirname,'../public');
 const partialDir = path.join(__dirname,'../templates/partial/');
