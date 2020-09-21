@@ -1,0 +1,42 @@
+body {
+    width: 600px;
+    margin: 0 auto;
+    padding:0 10px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    padding: 10px 0px;
+}
+header a {
+    margin-right: 10px;
+    color: #888888;
+    text-decoration: none;
+}
+
+.main-content {
+    flex-grow: 1;
+    
+}
+
+footer {
+    padding:10px 0;
+    margin: 10px 0;
+}
+
+input {
+    padding: 8px;
+    border: 2px solid gray;
+}
+
+button {
+    padding: 8px;
+    border: 2px solid gray
+}
+
+form {
+    padding: 10px 0px;
+}
